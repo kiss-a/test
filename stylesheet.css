@@ -1,57 +1,42 @@
 html{
 box-sizing: border-box;
 }
-*{
-  margin: 20px;
-}
 body {
-    background-color: rgb(231, 220, 170);
+  width:1300px;
+  margin: 0 auto;
+  background-color: rgb(231, 220, 170);
 }
 .header {
-  text-align: left;
-    min-height: 200px;
-  height: auto;
-  margin-right: auto;
-    margin-left : auto;
-    border-radius: 0px 70px 0px 70px;
+    height: 150px;
 }
 .profile {
-  padding: 10px 0px;
     height: auto;
-  min-height: 200px;
-    width: 1200px;
-    margin-right: auto;
-    margin-left : auto;
+    min-height: 450px;
+    width: 1300px;
     background-color: white;
     border-radius: 20px 20px 20px 20px;
-  
+  padding: 0px;
 }
 .main {
-    text-align: center;
     height: auto;
-  min-height: 800px;
-    width: 1200px;
-    margin-right: auto;
-    margin-left : auto;
+    min-height: 500px;
+    width: 1300px;
+    margin-top: 10px;
     background-color: #FFD066;
     border-radius: 20px 20px 20px 20px;
 }
 
-.profile p{
-  position: absolute;
-  padding-left: 0px;
-  line-height: 10px;
-    font-size: 30px;
+h2 {
+  font-size: 40px;
+  font-family: sans-serif;
 }
-pre {
+.profile-text {
+  padding-left: 20px;
   font-size: 30px;
-  padding-top: 60px;
-}
-.p-title p{
-    font-size: 45px;
 }
 .footer {
-    height: 80px;
+    height: 70px;
+  width: auto;
     background-color: black;
 }
 .header h1{
@@ -70,9 +55,11 @@ pre {
 .main p{
     font-size: 80px;
     font-family: serif;
+    text-align: center;
 }
 .work {
     font-size: 50px;
+  text-align: center;
 }
 .work img{
     width: 50%;
