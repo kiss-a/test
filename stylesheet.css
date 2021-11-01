@@ -19,7 +19,7 @@ body {
 }
 .main {
     height: auto;
-    min-height: 500px;
+    min-height: 1000px;
     width: 1300px;
     margin-top: 10px;
     background-color: #FFD066;
